@@ -33,16 +33,21 @@
 }
 
 .sidebar__title > i{
-    font-size: 18px;
+    font-size: 25px;
     display: none;
+    margin-left: 25px;
 }
 
-.sidebar-reponsive{
+
+
+.sidebar__reponsive{
     display: inline !important;
     z-index: 9999 !important;
     left: 0 !important;
     position: absolute;
 }
+
+
 
 @media only screen and (max-width: 978px) {
     #sidebar{

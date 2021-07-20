@@ -18,7 +18,7 @@ const App = () => {
     <div className="container">
        <Navbar sidebarOpen ={sidebarOpen} openSidebar={openSidebar}/>
        <Main />
-       <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar}/>
+       <Sidebar sidebarOpen={sidebarOpen} closeSidebar ={ closeSidebar }/>
     </div>
   )
 }

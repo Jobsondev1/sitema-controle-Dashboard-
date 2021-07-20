@@ -26,9 +26,9 @@
     font-weight: 700;
 }
 
-.navbar__left .active-link{
+.navbar__left .active_link{
     color: #265acc;
-    border-bottom: 3p solid #265acc;
+    border-bottom: 3px solid #265acc;
     padding-bottom: 12px;
 }
 
@@ -47,17 +47,18 @@
     color: #a5aaad;
     font-size: 16px;
     border-radius: 50px;
-    background:  2px 5px #d9d9d9, -2px -2px 5px #ffffff;
+    background:  #ffffff;
+    box-shadow: 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
     padding: 7px ;
 }
 
 @media only screen and (max-width: 978px){
-    .navbar_icon{
+    .nav_icon{
         display: inline;
     }
 }
 
-@media only screen and (max-width: 480){
+@media only screen and (max-width: 480px){
     .navbar__left{
         display: none;
     }

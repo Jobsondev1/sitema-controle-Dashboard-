@@ -1,4 +1,4 @@
-.sidebar-menu > h2{
+.sidebar__menu> h2{
     color: #3ea175;
     font-size: 16px;
     margin-top: 15px;
@@ -7,24 +7,24 @@
     font-weight: 700;
 }
 
-.sidebar-link{
+.sidebar__link {
     color: #3ea175;
     padding: 10px;
     border-radius: 3px;
     margin-bottom: 5px;
 }
 
-.active-menu-link{
+.active__menu__link{
     background: rgba(62, 161, 171, 0.3);
     color: #3ea175;
 
 }
 
-.active-menu-link > a {
+.active__menu__link > a {
     color: #3ea175 !important; 
 }
 
-.sidebar-link > a{
+.sidebar__link  > a{
     text-decoration: none;
     color: #a5aaad;
     font-weight: 700;
@@ -32,26 +32,31 @@
 
 
 
-.sidebar-link > a:focus{
+.sidebar__link  > a:focus{
     padding: 7px;
     background: rgba(62, 161, 171, 0.3);
     border-radius: 3px;
 }
 
-.sidebar-link > i {
+.sidebar__link  > i {
     margin-right: 10px;
     font-size: 18px;
 }
 
-.sidebar-logout{
+.sidebar__logout{
     margin-top: 20px;
     padding: 10px;
     color: #E65061;
 }
 
-.sidebar-logout > a{
+.sidebar__logout > a{
     text-decoration: none;
     color: #E65061;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.sidebar__logout > i{
+    margin-right: 10px;
+    font-size: 18px;
 }
