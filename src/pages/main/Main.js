@@ -1,7 +1,7 @@
 import "./main.css";
-import logo from '../../assets/logo.png';
+import logo from "../../assets/logo.png"
 
-import Charts from "../../components/charts/Charts";
+//import Charts from "../../components/charts/Charts";
 
 const Main = () => {
     return (
@@ -13,9 +13,9 @@ const Main = () => {
                         <h1> Ola Usuario</h1>
                         <p> Bem vindo ao sistema</p>
                     </div>
-                </div>
+                    </div>
 
-                <div className="main__cards">
+                 <div className="main__cards">
 
                     <div className="card">
                         <i className="fa fa-user-o fa-2x text-lightblue"></i>
@@ -50,7 +50,7 @@ const Main = () => {
                     </div>
                 </div>
 
-            <div className="charts">
+             <div className="charts">
                 <div className="charts__left">
                     <div className="charts__left__title">
                         <div>
@@ -59,7 +59,7 @@ const Main = () => {
                         </div>
                         <i className="fa fa-use"></i>
                     </div>
-                    <Charts />
+                  {/*  <Charts /> */}
                 </div>
 
                 <div className="charts__right">
@@ -91,9 +91,9 @@ const Main = () => {
 
                     </div>
                 </div>
-            </div>
+             </div>
 
-            </div>
+         </div>
             
         </main>
     )

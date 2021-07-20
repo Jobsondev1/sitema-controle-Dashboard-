@@ -37,9 +37,9 @@
     display: none;
 }
 
-.sidebar__reponsive{
+.sidebar-reponsive{
     display: inline !important;
-    z-index: 999 !important;
+    z-index: 9999 !important;
     left: 0 !important;
     position: absolute;
 }

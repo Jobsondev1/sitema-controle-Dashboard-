@@ -1,7 +1,7 @@
 import {useState} from 'react'
+import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
 import Navbar from './components/navbar/Navbar';
-import './App.css';
 import Main from './pages/main/Main';
 
 const App = () => {
