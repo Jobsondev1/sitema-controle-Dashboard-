@@ -18,25 +18,25 @@ const Main = () => {
                  <div className="main__cards">
 
                     <div className="card">
-                        <i className="fa fa-user-o fa-2x text-lightblue"></i>
+                        <i className="fa fa-file-text fa-2x text-lightblue"></i>
                         <div className="card-inner">
-                            <p className="text-primary-p">Numero de escrição</p>
+                            <p className="text-primary-p">Numero de pedidos</p>
                             <span className="font-bold text-title">365</span>
                         </div>
                     </div>
 
                     <div className="card">
-                        <i className="fa fa-user-o fa-2x text-red"></i>
+                        <i className="fa fa-money fa-2x text-red"></i>
                         <div className="card-inner">
-                            <p className="text-primary-p">Tempo de assistir</p>
-                            <span className="font-bold text-title">2467</span>
+                            <p className="text-primary-p">Pagamentos</p>
+                            <span className="font-bold text-title">24,67</span>
                         </div>
                     </div>
                     
                     <div className="card">
-                        <i className="fa fa-user-o fa-2x text-yellow"></i>
+                        <i className="fa fa-archive fa-2x text-yellow"></i>
                         <div className="card-inner">
-                            <p className="text-primary-p">numero de video</p>
+                            <p className="text-primary-p">numero produt</p>
                             <span className="font-bold text-title">397</span>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const Main = () => {
                     <div className="card">
                         <i className="fa fa-user-o fa-2x text-green"></i>
                         <div className="card-inner">
-                            <p className="text-primary-p">numeros de likes</p>
+                            <p className="text-primary-p">Categorias</p>
                             <span className="font-bold text-title">1000</span>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const Main = () => {
                             <h1>Relatorio diario</h1>
                             <p>Produção do dia</p>
                         </div>
-                        <i className="fa fa-use"></i>
+                        <i className="fa fa-usd"></i>
                     </div>
                   {/*  <Charts /> */}
                 </div>
@@ -68,7 +68,7 @@ const Main = () => {
                             <h1>Status do Relatorio</h1>
                             <p>Produção do dia</p>
                         </div>
-                        <i className="fa fa-use"></i>
+                        <i className="fa fa-area-chart"></i>
                     </div>
 
                     <div className="charts__right__cards">

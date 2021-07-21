@@ -23,11 +23,11 @@ const Charts = () => {
                 <XAxis />
                 <YAxis />
                 <LineSeries data={data} color="red" />
-                <LineSeries data={data} color="purple" />
+                <LineSeries data={data} color="purlple" />
                 <LineSeries data={data} color="yellow" />
             </XYPlot>
          </div>
     );
 };
 
-export default Charts
+export default Charts;
