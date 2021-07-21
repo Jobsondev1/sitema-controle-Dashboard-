@@ -1,7 +1,7 @@
 import "./main.css";
 import logo from "../../assets/logo.png"
 
-//import Charts from "../../components/charts/Charts";
+import Charts from "../../components/charts/Charts";
 
 const Main = () => {
     return (
@@ -59,7 +59,7 @@ const Main = () => {
                         </div>
                         <i className="fa fa-usd"></i>
                     </div>
-                  {/*  <Charts /> */}
+                   <Charts /> 
                 </div>
 
                 <div className="charts__right">
